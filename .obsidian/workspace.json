@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Youtube without Youtube.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Youtube without Youtube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Youtube without Youtube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md"
+                "file": "content/Youtube without Youtube.md"
               }
             }
           },
@@ -185,28 +185,40 @@
   },
   "active": "c96f8c9893d44c5e",
   "lastOpenFiles": [
-    "content/Becoming a Maker for My Son.md",
+    "content/Unnamed Card Game.md",
+    "content/Things I Want.md",
+    "content/The Smartwatch is Not What You Think.md",
+    "content/The perfect no-smartphone load-out.md",
+    "content/Switching to Neovim.md",
     "content/Self-Hosting a Digital Garden.md",
-    "content/index.md",
     "content/Planning a Homelab Domain Change.md",
-    "public/index.html",
-    "content/index.md",
+    "content/templates/note.md",
     "public/404.html",
+    "public/static/og-image.png",
+    "public/static/icon.png",
+    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.png",
+    "public/publish.css",
+    "public/static/contentIndex.json",
+    "public/index.xml",
+    "public/sitemap.xml",
+    "public/index.html",
+    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.html",
+    "public/excalidraw/Drawing-2024-10-03-23.03.02.excalidraw.html",
+    "public/Youtube-without-Youtube.html",
+    "public/Unnamed-Card-Game.html",
     "public/attachments/Pasted-image-20240924155505.png",
     "public/attachments/Pasted-Image-20240924155115_577.png",
     "public/attachments/Pasted-Image-20240924154944_705.png",
-    "public/attachments",
-    "public/publish.css",
-    "public/static/og-image.png",
-    "public/static/icon.png",
-    "public/static/contentIndex.json",
-    "public/static",
-    "public/index.xml",
-    "public/sitemap.xml",
-    "public/excalidraw/index.html",
     "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw.png",
-    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw.html",
-    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.png",
+    "content/Neovim.md",
+    "content/Getting Bus Times on my Smartwatch if IFTTT and n8n.md",
+    "content/Digital Minimalism.md",
+    "content/Detaching todos from PKM.md",
+    "content/Building a Pi Zero powered media player.md",
+    "content/Boardgame Storage Product.md",
+    "content/Becoming a Maker for My Son.md",
+    "content/Arcs Beginner Strategy.md",
+    "content/index.md",
     "README.md",
     "CODE_OF_CONDUCT.md",
     "Home.md",
@@ -216,18 +228,6 @@
     "Arcs Beginner Strategy.md",
     "The Smartwatch is Not What You Think.md",
     "Procyon/index.md",
-    "Procyon/Yazu, a Crooked Cop.md",
-    "Procyon/Yattu, a Gang Boss.md",
-    "Things I Want.md",
-    "Unnamed Card Game.md",
-    "Boardgame Storage Product.md",
-    "Procyon/How to Play Arcs.md",
-    "Procyon/Behind the Screen/Session 1 Prep & Notes.md",
-    "excalidraw/Drawing 2024-10-03 23.03.02.excalidraw.md",
-    "Procyon/Story Map.md",
-    "Yattu, a Gang Boss.md",
-    "Yazu, a Crooked Cop.md",
-    "Procyon/Player Characters/7-D.md",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.49.29.excalidraw.png",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.12.44.excalidraw.png",
     "attachments/Pasted Image 20240924154944_705.png"

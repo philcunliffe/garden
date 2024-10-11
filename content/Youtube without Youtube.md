@@ -1,3 +1,8 @@
+---
+planted: 2024-09-21
+status: budding
+draft: false
+---
 ## Purpose
 I watch more Youtube content then any other video content, but lately I've noticed the algorithm aggressively pushing me towards creators I find distasteful. For years I've joked about the "alt-right pipeline" that exists on Youtube (the concept that the algorithm will always lead you to alt-right content). It has been present but usually very easy to avoid. I have found this part of the algorithm to be more aggressive recently which leads me to the fundamental question of this note:
 

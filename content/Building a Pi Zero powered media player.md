@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 ## Parts
 #### Pi Zero
 - [Radxa Pi 0](https://www.aliexpress.us/item/3256806983233217.html?gatewayAdapt=glo2usa4itemAdapt)

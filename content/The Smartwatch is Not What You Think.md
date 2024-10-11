@@ -1,7 +1,7 @@
 ---
 planted: 2024-09-17
 last-tended: 2024-10-11
-status: grown
+status: budding
 ---
 *The smart watch is the most effective device for curing your smartphone addiction, full stop.*
 

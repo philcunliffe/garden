@@ -1,3 +1,10 @@
+---
+planted: 2024-09-17
+last-tended: 2024-09-17
+status: seedling
+draft: false
+---
+
 ## Why digital minimalism?
 I think this topic comes about for people in many different ways. For me it was a realization I had when I was watching my one year old son play but constantly felt the urge to pull out my phone and scroll through digital sugar.
 

@@ -1,3 +1,9 @@
+---
+planted: 2024-09-17
+status: seedling
+draft: true
+---
+
 ## Purpose
 My smartphone is an attention vortex and the best way for me to reduce distraction in my everyday life is to simply leave it at home. This sounds simple but is actually quite challenging. Many aspects of our lives have been integrated into the smartphone ecosystem, something as simple as ordering at a restaurant now often requires a smartphone
 ## Functions to replace

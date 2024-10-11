@@ -171,13 +171,18 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : ""
   const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug) + "/"
 
+  const status = node.file?.frontmatter?.status;
+  let statusEmoji = '';
+  if (status === 'seedling') statusEmoji = ' \u{1F331}';
+  if (status === 'budding') statusEmoji = ' \u{1F33F}';
+  if (status === 'evergreen') statusEmoji = ' \u{1F332}';
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
           <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
-            {node.displayName}
+            {node.displayName}{statusEmoji}
           </a>
         </li>
       ) : (
@@ -204,7 +209,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" ? (
                   <a href={href} data-for={node.name} class="folder-title">
-                    {node.displayName}
+                    {node.displayName}{statusEmoji}
                   </a>
                 ) : (
                   <button class="folder-button">

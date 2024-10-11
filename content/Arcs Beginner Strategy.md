@@ -1,6 +1,7 @@
 ---
 link: https://www.youtube.com/watch?v=6_Ox-BzeckU
 medium: video
+draft: true
 ---
 ## Winning initiative
 - Declaring first gives most points, but also tips hand

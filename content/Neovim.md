@@ -1,9 +1,11 @@
 ---
 id: Neovim
+status: budding
+planted: 2024-09-20
+last-tended: 2024-09-30
 aliases: []
 tags: []
 ---
-#now #nvim 
 
 NeoVim is a text editor which runs entirely within the terminal. It is a fork of Vim which itself is descended from VI. As a terminal based editor it is built to be used entirely with the keyboard which allows for extremely efficient coding once it's mastered.
 

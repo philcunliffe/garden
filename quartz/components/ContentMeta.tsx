@@ -29,8 +29,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
+      if (fileData.frontmatter?.planted) {
+        segments.push(`Planted ${formatDate(new Date(fileData.frontmatter.planted), cfg.locale)}`)
+      }
       if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+        segments.push(`Tended ${formatDate(getDate(cfg, fileData)!, cfg.locale)}`)
       }
 
       // Display reading time if enabled
@@ -46,7 +49,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
+          {segments.join('  |  ')}
         </p>
       )
     } else {

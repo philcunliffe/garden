@@ -1,3 +1,9 @@
+---
+planted: 2024-10-09
+status: seedling
+draft: true
+---
+
 ## Idea
 Design a two-phase game which starts with a rummy-like and finishes with turn-based combat using only a standard deck of cards. There could be useful aids like a game mat but the game should be entirely playable with just a standard deck.
 

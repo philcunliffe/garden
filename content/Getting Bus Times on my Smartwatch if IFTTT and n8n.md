@@ -1,3 +1,9 @@
+---
+planted: 2024-10-01
+last-tended: 2024-10-02
+status: budding
+draft: false
+---
 ## Why?
 If you've looked at [[The Smartwatch is Not What You Think]] or [[Digital Minimalism]] you know that I'm constantly looking for ways to reduce my dependence on my smartphone. One small reason I still pull it out of my locked server rack is to look at bus times on the OneBusAway app. Inevitably this interaction can lead to more undesirable interactions and so I'm looking to eliminate it. Unfortunately, there is no OneBusAway app for WearOS but I'm sure I can solve this problem with a little code and my [[Homelab]].
 

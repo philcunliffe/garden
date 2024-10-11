@@ -1,7 +1,7 @@
 ---
 tags: nvim
+draft: true
 ---
-#zettel #nvim 
 
 [[Neovim]] is an extremely extensible terminal code editor which is a form of the popular Vim editor. Not only does it look extremely cool to use but adept users are able to code extremely quickly. This note will document my attempt to adopt NeoVim as my primary code editor.
 ## Set up

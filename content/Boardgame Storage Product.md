@@ -1,4 +1,8 @@
-#fleeting 
+---
+status: seedling
+draft: true
+tags: fleeting
+---
 
 ## Steps
 1. Determine basic unit of space\
