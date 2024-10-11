@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2fb64a79453994c5",
+            "id": "98dccd62ed93d351",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "98dccd62ed93d351",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md"
+                "file": "content/Home.md"
               }
             }
           },
@@ -185,8 +172,8 @@
   },
   "active": "98dccd62ed93d351",
   "lastOpenFiles": [
-    "content/Planning a Homelab Domain Change.md",
     "content/index.md",
+    "content/Planning a Homelab Domain Change.md",
     "public/index.html",
     "content/Home.md",
     "public/404.html",
