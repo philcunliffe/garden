@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 ## Description
 I'm not a fan of the domain I use for most of my services, so I bought a new one at www.filco.dev. I started the process of transferring my services to the new domain and realized that it was going to require some planning.
 
@@ -12,6 +16,9 @@ I'll need to swap over a ton of domains and create new certificates and I don't 
 Many applications require configuration either pointing to other services or need their full FQDN set to operate properly. I'll need to identify all of these cases and add them to my step list.
 
 In addition, I have been looking to transition all of my docker containers to custom docker network(s), and taking the entire home lab down for a while presents a good opportunity to finally tackle that move. Unlike other things on this list, this can be done piecemeal as long as I keep the port forwarding in place.
+
+### n8n Webhooks
+I have webhooks configured in several applications which go to my n8n instance on my old domain, these will need to be updated to my current domain.
 ## Steps
 1. [x] Acquire new domain
 2. [x] Set up DDNS for new domain
