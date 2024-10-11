@@ -1,0 +1,5 @@
+1,200 years ago, humanity abandoned Earth and the Sol system to escape the artificial monsters we had created. As our pursuers - powerful AI entities - followed us into the unknown, the [[Hegemony]] was formed to counter the threat and assert human dominance in the galaxy.
+
+Now, the Hegemony rules from a central hub near the center of the Milky Way, exerting its power through a complex network of noble houses that govern various star systems. Procyon, our system of four stars, is one such domain, ruled by [[House Malklaith]].
+
+Procyon exists in a gray area between the [[Hegemony]]'s reach and true independence. While not large enough to resist the Hegemony's influence outright, it is also too small to be heavily policed - making it an attractive haven for illicit Syndicates, mystics, and other marginalized groups that operate on the fringes of society. As a result, corruption thrives in Procyon, alongside enigmatic temples and remnants of ancient civilizations that have not yet been fully assimilated.

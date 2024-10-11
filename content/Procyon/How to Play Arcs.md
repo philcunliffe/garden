@@ -1,0 +1,243 @@
+## Setup & Components
+
+- Playerboard and same colored components
+	- 15 ships
+		- Also have 2 states, damaged when tipped over
+	- 10 agents
+	- 10 buildings
+		- 5 cities
+		- 5 starports
+		- 2 sides, fresh + damaged
+			- Start with all fresh
+	- Your pieces are called Loyal pieces
+	- Opponents pieces are called rival pieces
+- Put 0 marker on ambition declared
+- Put ambition markers on blue side in hex spots highest to lowest
+- Chapter counter on 1
+- Make supplies of resources
+	- 5 copies of each
+- Make supplies of battle dice
+	- 6 of each
+	- Red = assault blue = skirmish orange = raid
+- Set up action card deck
+	- Entire deck for 4 player
+	- If fewer separate the 7s and 1s and return them to the box
+	- 6 cards to each player
+- randomly choose 1 player to start
+	- In a 2 player game the person who goes 2nd can mulligan the deal
+- Discards are always facedown in the discard pile
+- cannot show other players your hand
+- Vox & guild cards are shuffled together
+	- Deal out 4 face up (the court) (3 in 2 person game)
+- 1st game get rid of leader cards and lore cards
+- Draw a set up card and set up pieces on the map
+### Cards
+- Number
+- Ambition icon
+- Number of pips
+- Suit
+## Map
+- 6 clusters
+	- 4 systems
+		- 1 gate
+		- 3 planets
+- Block out gates which are excluded
+- Block out planets which are excluded
+- Whoever has initiative is player 1 numbers go clockwise
+- 3 fresh ships and fresh city in A system
+- 3 fresh ships and a starport in B system
+- 2 fresh ships in C system or systems
+- Check resource produced where your buildings were placed at add one of each to your player board
+	- A resource on the left
+- In 2 player game only
+	- Check which resources are out of play and put them in the ambition slots which depict those resources and weapons going to warlord
+
+# Play
+
+- Played in chapters
+- Use cards in their hands in a tricktaking like game
+	- Declare actions
+	- Fight for initiative
+- Constructing
+- Taxing
+- Moving and battling
+- Influencing the court
+- All points come from ambitions which players declare and then fight for
+	- Each chapter up to 3 ambitions can be declared
+	- Resource based
+		- Tycoons
+		- Keeper
+		- Empath
+	- Warlord is duh
+	- Tyrant is capturing agents
+	- Lowest scoring ambition flips after each chapter
+- Play until end of 6th chapter or until someone has points to win
+- Play starts with initiative then clockwise
+- Chapter ends when people are out of cards
+- ### Player with initiative
+	- #### Lead phase
+		- Initiative plays 1 card face up in the lead spot
+			- Having played a lead card you can declare the ambition on the card
+				- An ambition can be declared multiple times
+				- 7s can be used to declare any ambition
+				- 1s cannot be used to declare an ambition
+				- If you declare an ambition put the 0 ambition declared over the number
+					- Pips are not effected
+	- #### Prelude phase
+		- Can use prelude effects on cards you have
+		- Spend resources to take prelude actions
+	- #### Take actions
+		- 7 different actions in the game
+		- Suits give access to 2 or 3 of them
+		- Take 1 action for each pip on the card you played
+- ### Next player
+	- Play a card
+		- Surpass
+			- Play a card matching suit of a higher number
+			- Surpassing only needs to be a higher number then the lead card not any following cards
+		- Copy
+			- Any card from hand and play it face down
+		- Pivot
+			- Any card that does not match lead suit and play face up
+		- Seizing initiative 
+			- You can play a 2nd card from your hand and playing it face down in order to seize initiative
+				- This card does nothing for actions later
+			- In 4 player game you can surpass with the 7 to surpass
+				- Leading doesnt count
+			- Take the marker and lay it besides your board
+				- Cannot be resiezed
+	- After playing card play your prelude phase
+	- Take actions
+		- Surpass
+			- Take one action matching suit for each pip
+		- Copy
+			- Single action matching the lead card
+		- Pivot
+			- Single action on card you played
+- ### End of round
+	- Continue until every player who had cards takes a turn
+	- If no one seized then whatever player surpassed with the highest card gets initiative
+	- Discard all played cards facedown
+	- Start next round!
+
+## Actions
+- ### Build
+	- Only on construction cards
+	- Construct a building
+		- Startport
+		- Leftmost city
+		- Empty building slot on a planet system where you have 1 loyal piece
+	- Build a ship
+		- 1 ship in a system with a loyal starport
+		- 1 ship per starport per turn
+	- If you build something into a system which is *controlled* by a rival it enters play damaged
+		- Built into neutral places are fresh
+- ### Repair
+	- On administration and construction
+	- Repair 1 thing on the board from damaged to fresh
+- ### Tax
+	- Only on administration
+	- Taxes a city
+		- One of your cities
+			- One resources matching that planet
+		- A rival city in a system you *control*
+			- One resource matching that planet
+			- Capture one agent
+				- Put into captives box
+	- Each city can only be taxed once per turn
+	- Any resources you gain are placed into the slots at the top of player board
+		- Only when you gain a resource can you re-arrange
+		- If you gain above your capacity (resource slot blocked) you must discard down to cap
+- ### Influence
+	- On mobilization and Admin
+	- Take agent from your supply and place on any card in the court
+		- No limit to number or combo
+- ### Secure
+	- Only on aggression
+	- Take one court card where you have the most agents present on the card
+	- If there's a "When secured" effect do it now
+	- Replace the card in the court
+- ### Move
+	- Mobil and aggro
+	- Standard
+		- One or more ships from a single system and move them to adjacent system
+		- Don't need to move all ships
+	- Catapult
+		- One or more ships from a system with a loyal starport
+		- Move them through any number of adjacent spaces until you want to stop OR you hit a gate system controlled by a rival
+			- Can drop off ships off at gate systems on the way but cannot pick up
+		- Can only go to a single planet system with a catapult
+- ### Battle
+	- Aggro
+	- Choose the system
+		- Your buildings don't count as the attacker
+	- Choose 1 rival to battle
+		- All of that rivals pieces (ships and buildings) are defending pieces
+	- Single die roll by attacker
+		- Make a pool of dice 1 die per attacking ship, fresh or damaged
+			- Freely choose what type of dice to use
+				- Raid can only be used if defenders have a building in system
+				- OR no buildings on entire map
+		- #### Dice types
+			- Assault
+				- High damage but with risk of damage
+			- Skirmish
+				- Low dam but no risk
+			- Raid
+				- Highest risk but allows stealing resources and cards from defenders
+		- Roll dice and resolve in this order
+			- For each flame, one attacking ship suffers 1 damage
+			- If any dice show a ring you need to take "intercept" damage
+				- 1 damage for each of the defenders fresh ships
+				- Only happens once even if you roll multiple
+			- Destroyed ships goes to the players trophy box
+			- Each star hits a ship or building (if no ships are left)
+			- Each star with triangle inside do 1 damage to building (even if ships are left)
+			- Add up keys you roll and steal that many keys worth of resources or cards from the opponent
+		- If you destroy a city
+			- Provoke *outrage* with the class of planet that the city was on
+				- Discard all resources and guild cards of that type
+				- Permanently move agent onto the outrage slot for that resource
+					- Lose access to agent and prelude action
+				- If you have no agent you need a placeholder
+				- Doesn't prevent you from getting that resource or guild type in the future
+			- Ransack the court
+				- Choose any card that has defenders agents on it
+					- Secure the card
+						- Rival agents on the card are taken as trophies, not captives
+
+## Prelude
+- Prelude actions come from 2 main places
+	- Guild cards
+		- Resolve the text on the card
+	- Resources
+		- Discard one resource and resolve the effect listed
+		- Does not go back to the supply until the end of the prelude step
+
+## End of chapter
+- If a non-init player has no cards just skip
+- If init-player has no cards, end round and move init to the left
+- If you have init you can voluntarily pass init to the left and end the round
+	- This can end the chapter if all players with cards have passed init
+- #### Resolve each declared ambition
+	- If tied all players get 2nd place point
+	- Must have a single point to qualify for any
+	- Cards have icon that count for tycoon type ones
+	- Keeper goes to the most relics
+	- Empath to the most psionic
+	- There are bonuses underneath the last 2 cities which you get if you cleanly win an ambition
+	- In a 2 person games the tokens set aside represent a neutral 3rd party
+	- If it's the end of the 5th chapter or someone has enough points the game ends
+		- If 2 players are tied then the turn order by current initiative breaks tie
+	- If Tyrant was resolved, all players return captives
+	- If Warlord was resolved, all players return trophies
+- Return ambitions to top of the board and flip the lowest
+- Gather up action cards shuffle and redeal hands of six
+
+## Definitions
+- ### Control
+	- A system is controlled by whichever player has the most fresh ships present
+	- Tie goes to no-one
+- ### Adjacent systems
+	- Connected by a single line
+	- Across a gate arrow
