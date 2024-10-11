@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Youtube without Youtube.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Youtube without Youtube.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Youtube without Youtube.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Youtube without Youtube.md"
+                "file": "content/index.md"
               }
             }
           },
@@ -185,14 +185,37 @@
   },
   "active": "c96f8c9893d44c5e",
   "lastOpenFiles": [
-    "content/Unnamed Card Game.md",
-    "content/Things I Want.md",
-    "content/The Smartwatch is Not What You Think.md",
-    "content/The perfect no-smartphone load-out.md",
-    "content/Switching to Neovim.md",
-    "content/Self-Hosting a Digital Garden.md",
-    "content/Planning a Homelab Domain Change.md",
-    "content/templates/note.md",
+    "content/Readwise/Articles/7 Harsh Truths You Probably Need to Hear.md",
+    "content/Youtube without Youtube.md",
+    "content/Readwise/Articles/A Brief History & Ethos of the Digital Garden.md",
+    "content/Readwise/Books/From Dream to Dice.md",
+    "content/Readwise/Books/My Guide to RPG Storytelling.md",
+    "content/Readwise/Books/Invisible Ink.md",
+    "content/Readwise/Articles/The Hardest Part of D&D With ADHD.md",
+    "content/Readwise/Books/Light Bringer.md",
+    "content/Readwise/Articles/Before You Write Frame Your Thoughts With Concept Modeling.md",
+    "content/Readwise/Articles/The Clever Aiming Strategy Tour Pros Actually Use  the Game Plan  Golf Digest.md",
+    "content/Readwise/Books/Digital Minimalism.md",
+    "content/Readwise/Articles/Golden Butter Rice  Easy Perfect Rice  Food Wishes.md",
+    "content/Readwise/Articles/There’s a Fast New Code Editor in Town.md",
+    "content/Readwise/Articles/NEW React 19 Changes Are Amazing!.md",
+    "content/Readwise/Articles",
+    "content/Readwise/Books/Return of the Lazy Dungeon Master.md",
+    "content/Readwise/Books/Homo Deus.md",
+    "content/Readwise/Books/Skid Road.md",
+    "content/Readwise/Books/A Universe From Nothing.md",
+    "content/Readwise/Books/Tao of Jeet Kune Do.md",
+    "content/Readwise/Books",
+    "content/Readwise",
+    "Readwise/Articles/A Brief History & Ethos of the Digital Garden.md",
+    "Readwise/Books/From Dream to Dice.md",
+    "Readwise/Books/My Guide to RPG Storytelling.md",
+    "Readwise/Articles/7 Harsh Truths You Probably Need to Hear.md",
+    "Readwise/Books/Invisible Ink.md",
+    "Readwise/Articles/The Hardest Part of D&D With ADHD.md",
+    "Readwise/Articles",
+    "Readwise/Books",
+    "Readwise",
     "public/404.html",
     "public/static/og-image.png",
     "public/static/icon.png",
@@ -200,34 +223,10 @@
     "public/publish.css",
     "public/static/contentIndex.json",
     "public/index.xml",
-    "public/sitemap.xml",
-    "public/index.html",
-    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.html",
-    "public/excalidraw/Drawing-2024-10-03-23.03.02.excalidraw.html",
-    "public/Youtube-without-Youtube.html",
-    "public/Unnamed-Card-Game.html",
     "public/attachments/Pasted-image-20240924155505.png",
     "public/attachments/Pasted-Image-20240924155115_577.png",
     "public/attachments/Pasted-Image-20240924154944_705.png",
     "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw.png",
-    "content/Neovim.md",
-    "content/Getting Bus Times on my Smartwatch if IFTTT and n8n.md",
-    "content/Digital Minimalism.md",
-    "content/Detaching todos from PKM.md",
-    "content/Building a Pi Zero powered media player.md",
-    "content/Boardgame Storage Product.md",
-    "content/Becoming a Maker for My Son.md",
-    "content/Arcs Beginner Strategy.md",
-    "content/index.md",
-    "README.md",
-    "CODE_OF_CONDUCT.md",
-    "Home.md",
-    "templates/note.md",
-    "Self-Hosting a Digital Garden.md",
-    "Becoming a Maker for My Son.md",
-    "Arcs Beginner Strategy.md",
-    "The Smartwatch is Not What You Think.md",
-    "Procyon/index.md",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.49.29.excalidraw.png",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.12.44.excalidraw.png",
     "attachments/Pasted Image 20240924154944_705.png"

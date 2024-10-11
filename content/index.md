@@ -23,11 +23,5 @@ Below are some categories that have consumed my brain at some point:
 	- [[Taking notes at work vs taking notes at home]]
 	- [[The vision for this digital garden]]
 
-### TTRPGs
-##### [[Procyon]] (Scum & Villainy)
-- [[Procyon World Primer]]
-- [[Procyon Faction Primer]]
-- [[The Way]]
 ## Outstanding tasks for this garden
-- [ ] Integrate readwise
 - [ ] Transfer some notes from old vault
