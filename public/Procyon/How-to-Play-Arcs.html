@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>How to Play Arcs</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="How to Play Arcs"/><meta property="og:description" content="Setup &amp;amp; Components Playerboard and same colored components 15 ships Also have 2 states, damaged when tipped over 10 agents 10 buildings 5 cities 5 starports 2 sides, fresh + damaged ..."/><meta property="og:image" content="https://quartz.jzhao.xyz/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Setup &amp;amp; Components Playerboard and same colored components 15 ships Also have 2 states, damaged when tipped over 10 agents 10 buildings 5 cities 5 starports 2 sides, fresh + damaged ..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="Procyon/How-to-Play-Arcs"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">🪴 Quartz 4.0</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button" id="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><button class="darkmode" id="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[{&quot;path&quot;:&quot;excalidraw&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Procyon&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Procyon/Behind-the-Screen&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Procyon/Player-Characters&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Procyon/Sessions&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Tags&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Tags/digimin&quot;,&quot;collapsed&quot;:true}]" aria-controls="explorer-content" aria-expanded="false"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="excalidraw"><button class="folder-button"><span class="folder-title">excalidraw</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="excalidraw"><li><a href="../excalidraw/Drawing-2024-10-03-23.03.02.excalidraw" data-for="excalidraw/Drawing-2024-10-03-23.03.02.excalidraw">Drawing 2024-10-03 23.03.02.excalidraw</a></li><li><a href="../excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw" data-for="excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw">Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.12.44.excalidraw</a></li><li><a href="../excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw" data-for="excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw">Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.49.29.excalidraw</a></li></ul></div></li><li><div class="folder-outer "><ul style="padding-left:0;" class="content" data-folderul></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Procyon"><button class="folder-button"><span class="folder-title">Procyon</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Procyon"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Procyon/Behind-the-Screen"><button class="folder-button"><span class="folder-title">Behind the Screen</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Procyon/Behind-the-Screen"><li><a href="../Procyon/Behind-the-Screen/Session-0-Prep--and--Notes" data-for="Procyon/Behind-the-Screen/Session-0-Prep--and--Notes">Session 0 Prep &amp; Notes</a></li><li><a href="../Procyon/Behind-the-Screen/Session-1-Prep--and--Notes" data-for="Procyon/Behind-the-Screen/Session-1-Prep--and--Notes">Session 1 Prep &amp; Notes</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Procyon/Player-Characters"><button class="folder-button"><span class="folder-title">Player Characters</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Procyon/Player-Characters"><li><a href="../Procyon/Player-Characters/7-D" data-for="Procyon/Player-Characters/7-D">7-D</a></li><li><a href="../Procyon/Player-Characters/Ignor-Indigo" data-for="Procyon/Player-Characters/Ignor-Indigo">Ignor Indigo</a></li><li><a href="../Procyon/Player-Characters/Lando-Impera" data-for="Procyon/Player-Characters/Lando-Impera">Lando Impera</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Procyon/Sessions"><button class="folder-button"><span class="folder-title">Sessions</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Procyon/Sessions"><li><a href="../Procyon/Sessions/Session-0" data-for="Procyon/Sessions/Session-0">Session 0</a></li><li><a href="../Procyon/Sessions/Session-1" data-for="Procyon/Sessions/Session-1">Session 1</a></li></ul></div></li><li><a href="../Procyon/Actions-Primer" data-for="Procyon/Actions-Primer">Actions Primer</a></li><li><a href="../Procyon/Attune-Examples" data-for="Procyon/Attune-Examples">Attune Examples</a></li><li><a href="../Procyon/Backgrounds" data-for="Procyon/Backgrounds">Backgrounds</a></li><li><a href="../Procyon/Character-Creation" data-for="Procyon/Character-Creation">Character Creation</a></li><li><a href="../Procyon/Crew-Creation" data-for="Procyon/Crew-Creation">Crew Creation</a></li><li><a href="../Procyon/Crew-Gear" data-for="Procyon/Crew-Gear">Crew Gear</a></li><li><a href="../Procyon/Hegemonic-Cults" data-for="Procyon/Hegemonic-Cults">Hegemonic Cults</a></li><li><a href="../Procyon/Heritages" data-for="Procyon/Heritages">Heritages</a></li><li><a href="../Procyon/How-to-Play-Arcs" data-for="Procyon/How-to-Play-Arcs">How to Play Arcs</a></li><li><a href="../Procyon/Mystics" data-for="Procyon/Mystics">Mystics</a></li><li><a href="../Procyon/Procyon" data-for="Procyon/Procyon">Procyon</a></li><li><a href="../Procyon/Procyon-Faction-Primer" data-for="Procyon/Procyon-Faction-Primer">Procyon Faction Primer</a></li><li><a href="../Procyon/Procyon-World-Primer" data-for="Procyon/Procyon-World-Primer">Procyon World Primer</a></li><li><a href="../Procyon/Ship-Gear" data-for="Procyon/Ship-Gear">Ship Gear</a></li><li><a href="../Procyon/Ship-Modules" data-for="Procyon/Ship-Modules">Ship Modules</a></li><li><a href="../Procyon/Story-Map" data-for="Procyon/Story-Map">Story Map</a></li><li><a href="../Procyon/The-Way" data-for="Procyon/The-Way">The Way</a></li><li><a href="../Procyon/Yattu,-a-Gang-Boss" data-for="Procyon/Yattu,-a-Gang-Boss">Yattu, a Gang Boss</a></li><li><a href="../Procyon/Yazu,-a-Crooked-Cop" data-for="Procyon/Yazu,-a-Crooked-Cop">Yazu, a Crooked Cop</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Tags"><button class="folder-button"><span class="folder-title">Tags</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Tags"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Tags/digimin"><button class="folder-button"><span class="folder-title">#digimin</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Tags/digimin"><li><a href="../Tags/digimin/digimin" data-for="Tags/digimin/digimin">#digimin</a></li></ul></div></li></ul></div></li><li><a href="../Arcs-Beginner-Strategy" data-for="Arcs-Beginner-Strategy">Arcs Beginner Strategy</a></li><li><a href="../Boardgame-Storage-Product" data-for="Boardgame-Storage-Product">Boardgame Storage Product</a></li><li><a href="../Building-a-Pi-Zero-powered-media-player" data-for="Building-a-Pi-Zero-powered-media-player">Building a Pi Zero powered media player</a></li><li><a href="../Detaching-todos-from-PKM" data-for="Detaching-todos-from-PKM">Detaching todos from PKM</a></li><li><a href="../Digital-Minimalism" data-for="Digital-Minimalism">Digital Minimalism</a></li><li><a href="../Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n" data-for="Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n">Getting Bus Times on my Smartwatch if IFTTT and n8n</a></li><li><a href="../Home" data-for="Home">Home</a></li><li><a href="../Neovim" data-for="Neovim">Neovim</a></li><li><a href="../Planning-a-Homelab-Domain-Change" data-for="Planning-a-Homelab-Domain-Change">Planning a Homelab Domain Change</a></li><li><a href="../Self-Hosting-a-Digital-Garden" data-for="Self-Hosting-a-Digital-Garden">Self-Hosting a Digital Garden</a></li><li><a href="../Switching-to-Neovim" data-for="Switching-to-Neovim">Switching to Neovim</a></li><li><a href="../The-perfect-no-smartphone-load-out" data-for="The-perfect-no-smartphone-load-out">The perfect no-smartphone load-out</a></li><li><a href="../The-Smartwatch-is-Not-What-You-Think" data-for="The-Smartwatch-is-Not-What-You-Think">The Smartwatch is Not What You Think</a></li><li><a href="../Things-I-Want" data-for="Things-I-Want">Things I Want</a></li><li><a href="../Unnamed-Card-Game" data-for="Unnamed-Card-Game">Unnamed Card Game</a></li><li><a href="../Youtube-without-Youtube" data-for="Youtube-without-Youtube">Youtube without Youtube</a></li></ul></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Procyon/">Procyon</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>How to Play Arcs</a></div></nav><h1 class="article-title">How to Play Arcs</h1><p show-comma="true" class="content-meta"><span>Oct 11, 2024</span><span>8 min read</span></p></div></div><article class="popover-hint"><h2 id="setup--components">Setup &amp; Components<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#setup--components" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Playerboard and same colored components
+<ul>
+<li>15 ships
+<ul>
+<li>Also have 2 states, damaged when tipped over</li>
+</ul>
+</li>
+<li>10 agents</li>
+<li>10 buildings
+<ul>
+<li>5 cities</li>
+<li>5 starports</li>
+<li>2 sides, fresh + damaged
+<ul>
+<li>Start with all fresh</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Your pieces are called Loyal pieces</li>
+<li>Opponents pieces are called rival pieces</li>
+</ul>
+</li>
+<li>Put 0 marker on ambition declared</li>
+<li>Put ambition markers on blue side in hex spots highest to lowest</li>
+<li>Chapter counter on 1</li>
+<li>Make supplies of resources
+<ul>
+<li>5 copies of each</li>
+</ul>
+</li>
+<li>Make supplies of battle dice
+<ul>
+<li>6 of each</li>
+<li>Red = assault blue = skirmish orange = raid</li>
+</ul>
+</li>
+<li>Set up action card deck
+<ul>
+<li>Entire deck for 4 player</li>
+<li>If fewer separate the 7s and 1s and return them to the box</li>
+<li>6 cards to each player</li>
+</ul>
+</li>
+<li>randomly choose 1 player to start
+<ul>
+<li>In a 2 player game the person who goes 2nd can mulligan the deal</li>
+</ul>
+</li>
+<li>Discards are always facedown in the discard pile</li>
+<li>cannot show other players your hand</li>
+<li>Vox &amp; guild cards are shuffled together
+<ul>
+<li>Deal out 4 face up (the court) (3 in 2 person game)</li>
+</ul>
+</li>
+<li>1st game get rid of leader cards and lore cards</li>
+<li>Draw a set up card and set up pieces on the map</li>
+</ul>
+<h3 id="cards">Cards<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cards" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Number</li>
+<li>Ambition icon</li>
+<li>Number of pips</li>
+<li>Suit</li>
+</ul>
+<h2 id="map">Map<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#map" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>6 clusters
+<ul>
+<li>4 systems
+<ul>
+<li>1 gate</li>
+<li>3 planets</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Block out gates which are excluded</li>
+<li>Block out planets which are excluded</li>
+<li>Whoever has initiative is player 1 numbers go clockwise</li>
+<li>3 fresh ships and fresh city in A system</li>
+<li>3 fresh ships and a starport in B system</li>
+<li>2 fresh ships in C system or systems</li>
+<li>Check resource produced where your buildings were placed at add one of each to your player board
+<ul>
+<li>A resource on the left</li>
+</ul>
+</li>
+<li>In 2 player game only
+<ul>
+<li>Check which resources are out of play and put them in the ambition slots which depict those resources and weapons going to warlord</li>
+</ul>
+</li>
+</ul>
+<h1 id="play">Play<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#play" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>Played in chapters</li>
+<li>Use cards in their hands in a tricktaking like game
+<ul>
+<li>Declare actions</li>
+<li>Fight for initiative</li>
+</ul>
+</li>
+<li>Constructing</li>
+<li>Taxing</li>
+<li>Moving and battling</li>
+<li>Influencing the court</li>
+<li>All points come from ambitions which players declare and then fight for
+<ul>
+<li>Each chapter up to 3 ambitions can be declared</li>
+<li>Resource based
+<ul>
+<li>Tycoons</li>
+<li>Keeper</li>
+<li>Empath</li>
+</ul>
+</li>
+<li>Warlord is duh</li>
+<li>Tyrant is capturing agents</li>
+<li>Lowest scoring ambition flips after each chapter</li>
+</ul>
+</li>
+<li>Play until end of 6th chapter or until someone has points to win</li>
+<li>Play starts with initiative then clockwise</li>
+<li>Chapter ends when people are out of cards</li>
+<li>
+<h3 id="player-with-initiative">Player with initiative<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#player-with-initiative" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>
+<h4 id="lead-phase">Lead phase<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lead-phase" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Initiative plays 1 card face up in the lead spot
+<ul>
+<li>Having played a lead card you can declare the ambition on the card
+<ul>
+<li>An ambition can be declared multiple times</li>
+<li>7s can be used to declare any ambition</li>
+<li>1s cannot be used to declare an ambition</li>
+<li>If you declare an ambition put the 0 ambition declared over the number
+<ul>
+<li>Pips are not effected</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="prelude-phase">Prelude phase<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#prelude-phase" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Can use prelude effects on cards you have</li>
+<li>Spend resources to take prelude actions</li>
+</ul>
+</li>
+<li>
+<h4 id="take-actions">Take actions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#take-actions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>7 different actions in the game</li>
+<li>Suits give access to 2 or 3 of them</li>
+<li>Take 1 action for each pip on the card you played</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="next-player">Next player<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#next-player" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Play a card
+<ul>
+<li>Surpass
+<ul>
+<li>Play a card matching suit of a higher number</li>
+<li>Surpassing only needs to be a higher number then the lead card not any following cards</li>
+</ul>
+</li>
+<li>Copy
+<ul>
+<li>Any card from hand and play it face down</li>
+</ul>
+</li>
+<li>Pivot
+<ul>
+<li>Any card that does not match lead suit and play face up</li>
+</ul>
+</li>
+<li>Seizing initiative
+<ul>
+<li>You can play a 2nd card from your hand and playing it face down in order to seize initiative
+<ul>
+<li>This card does nothing for actions later</li>
+</ul>
+</li>
+<li>In 4 player game you can surpass with the 7 to surpass
+<ul>
+<li>Leading doesnt count</li>
+</ul>
+</li>
+<li>Take the marker and lay it besides your board
+<ul>
+<li>Cannot be resiezed</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>After playing card play your prelude phase</li>
+<li>Take actions
+<ul>
+<li>Surpass
+<ul>
+<li>Take one action matching suit for each pip</li>
+</ul>
+</li>
+<li>Copy
+<ul>
+<li>Single action matching the lead card</li>
+</ul>
+</li>
+<li>Pivot
+<ul>
+<li>Single action on card you played</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="end-of-round">End of round<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#end-of-round" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Continue until every player who had cards takes a turn</li>
+<li>If no one seized then whatever player surpassed with the highest card gets initiative</li>
+<li>Discard all played cards facedown</li>
+<li>Start next round!</li>
+</ul>
+</li>
+</ul>
+<h2 id="actions">Actions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#actions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>
+<h3 id="build">Build<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#build" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Only on construction cards</li>
+<li>Construct a building
+<ul>
+<li>Startport</li>
+<li>Leftmost city</li>
+<li>Empty building slot on a planet system where you have 1 loyal piece</li>
+</ul>
+</li>
+<li>Build a ship
+<ul>
+<li>1 ship in a system with a loyal starport</li>
+<li>1 ship per starport per turn</li>
+</ul>
+</li>
+<li>If you build something into a system which is <em>controlled</em> by a rival it enters play damaged
+<ul>
+<li>Built into neutral places are fresh</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="repair">Repair<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#repair" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>On administration and construction</li>
+<li>Repair 1 thing on the board from damaged to fresh</li>
+</ul>
+</li>
+<li>
+<h3 id="tax">Tax<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tax" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Only on administration</li>
+<li>Taxes a city
+<ul>
+<li>One of your cities
+<ul>
+<li>One resources matching that planet</li>
+</ul>
+</li>
+<li>A rival city in a system you <em>control</em>
+<ul>
+<li>One resource matching that planet</li>
+<li>Capture one agent
+<ul>
+<li>Put into captives box</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Each city can only be taxed once per turn</li>
+<li>Any resources you gain are placed into the slots at the top of player board
+<ul>
+<li>Only when you gain a resource can you re-arrange</li>
+<li>If you gain above your capacity (resource slot blocked) you must discard down to cap</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="influence">Influence<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#influence" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>On mobilization and Admin</li>
+<li>Take agent from your supply and place on any card in the court
+<ul>
+<li>No limit to number or combo</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="secure">Secure<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#secure" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Only on aggression</li>
+<li>Take one court card where you have the most agents present on the card</li>
+<li>If there’s a “When secured” effect do it now</li>
+<li>Replace the card in the court</li>
+</ul>
+</li>
+<li>
+<h3 id="move">Move<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#move" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Mobil and aggro</li>
+<li>Standard
+<ul>
+<li>One or more ships from a single system and move them to adjacent system</li>
+<li>Don’t need to move all ships</li>
+</ul>
+</li>
+<li>Catapult
+<ul>
+<li>One or more ships from a system with a loyal starport</li>
+<li>Move them through any number of adjacent spaces until you want to stop OR you hit a gate system controlled by a rival
+<ul>
+<li>Can drop off ships off at gate systems on the way but cannot pick up</li>
+</ul>
+</li>
+<li>Can only go to a single planet system with a catapult</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="battle">Battle<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#battle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Aggro</li>
+<li>Choose the system
+<ul>
+<li>Your buildings don’t count as the attacker</li>
+</ul>
+</li>
+<li>Choose 1 rival to battle
+<ul>
+<li>All of that rivals pieces (ships and buildings) are defending pieces</li>
+</ul>
+</li>
+<li>Single die roll by attacker
+<ul>
+<li>Make a pool of dice 1 die per attacking ship, fresh or damaged
+<ul>
+<li>Freely choose what type of dice to use
+<ul>
+<li>Raid can only be used if defenders have a building in system</li>
+<li>OR no buildings on entire map</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h4 id="dice-types">Dice types<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dice-types" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Assault
+<ul>
+<li>High damage but with risk of damage</li>
+</ul>
+</li>
+<li>Skirmish
+<ul>
+<li>Low dam but no risk</li>
+</ul>
+</li>
+<li>Raid
+<ul>
+<li>Highest risk but allows stealing resources and cards from defenders</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Roll dice and resolve in this order
+<ul>
+<li>For each flame, one attacking ship suffers 1 damage</li>
+<li>If any dice show a ring you need to take “intercept” damage
+<ul>
+<li>1 damage for each of the defenders fresh ships</li>
+<li>Only happens once even if you roll multiple</li>
+</ul>
+</li>
+<li>Destroyed ships goes to the players trophy box</li>
+<li>Each star hits a ship or building (if no ships are left)</li>
+<li>Each star with triangle inside do 1 damage to building (even if ships are left)</li>
+<li>Add up keys you roll and steal that many keys worth of resources or cards from the opponent</li>
+</ul>
+</li>
+<li>If you destroy a city
+<ul>
+<li>Provoke <em>outrage</em> with the class of planet that the city was on
+<ul>
+<li>Discard all resources and guild cards of that type</li>
+<li>Permanently move agent onto the outrage slot for that resource
+<ul>
+<li>Lose access to agent and prelude action</li>
+</ul>
+</li>
+<li>If you have no agent you need a placeholder</li>
+<li>Doesn’t prevent you from getting that resource or guild type in the future</li>
+</ul>
+</li>
+<li>Ransack the court
+<ul>
+<li>Choose any card that has defenders agents on it
+<ul>
+<li>Secure the card
+<ul>
+<li>Rival agents on the card are taken as trophies, not captives</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="prelude">Prelude<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#prelude" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Prelude actions come from 2 main places
+<ul>
+<li>Guild cards
+<ul>
+<li>Resolve the text on the card</li>
+</ul>
+</li>
+<li>Resources
+<ul>
+<li>Discard one resource and resolve the effect listed</li>
+<li>Does not go back to the supply until the end of the prelude step</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="end-of-chapter">End of chapter<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#end-of-chapter" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>If a non-init player has no cards just skip</li>
+<li>If init-player has no cards, end round and move init to the left</li>
+<li>If you have init you can voluntarily pass init to the left and end the round
+<ul>
+<li>This can end the chapter if all players with cards have passed init</li>
+</ul>
+</li>
+<li>
+<h4 id="resolve-each-declared-ambition">Resolve each declared ambition<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#resolve-each-declared-ambition" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>If tied all players get 2nd place point</li>
+<li>Must have a single point to qualify for any</li>
+<li>Cards have icon that count for tycoon type ones</li>
+<li>Keeper goes to the most relics</li>
+<li>Empath to the most psionic</li>
+<li>There are bonuses underneath the last 2 cities which you get if you cleanly win an ambition</li>
+<li>In a 2 person games the tokens set aside represent a neutral 3rd party</li>
+<li>If it’s the end of the 5th chapter or someone has enough points the game ends
+<ul>
+<li>If 2 players are tied then the turn order by current initiative breaks tie</li>
+</ul>
+</li>
+<li>If Tyrant was resolved, all players return captives</li>
+<li>If Warlord was resolved, all players return trophies</li>
+</ul>
+</li>
+<li>Return ambitions to top of the board and flip the lowest</li>
+<li>Gather up action cards shuffle and redeal hands of six</li>
+</ul>
+<h2 id="definitions">Definitions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#definitions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>
+<h3 id="control">Control<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#control" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>A system is controlled by whichever player has the most fresh ships present</li>
+<li>Tie goes to no-one</li>
+</ul>
+</li>
+<li>
+<h3 id="adjacent-systems">Adjacent systems<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#adjacent-systems" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Connected by a single line</li>
+<li>Across a gate arrow</li>
+</ul>
+</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false}"></div><button id="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc" class aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content" class><ul class="overflow"><li class="depth-1"><a href="#setup--components" data-for="setup--components">Setup &amp; Components</a></li><li class="depth-2"><a href="#cards" data-for="cards">Cards</a></li><li class="depth-1"><a href="#map" data-for="map">Map</a></li><li class="depth-0"><a href="#play" data-for="play">Play</a></li><li class="depth-2"><a href="#player-with-initiative" data-for="player-with-initiative">Player with initiative</a></li><li class="depth-2"><a href="#next-player" data-for="next-player">Next player</a></li><li class="depth-2"><a href="#end-of-round" data-for="end-of-round">End of round</a></li><li class="depth-1"><a href="#actions" data-for="actions">Actions</a></li><li class="depth-2"><a href="#build" data-for="build">Build</a></li><li class="depth-2"><a href="#repair" data-for="repair">Repair</a></li><li class="depth-2"><a href="#tax" data-for="tax">Tax</a></li><li class="depth-2"><a href="#influence" data-for="influence">Influence</a></li><li class="depth-2"><a href="#secure" data-for="secure">Secure</a></li><li class="depth-2"><a href="#move" data-for="move">Move</a></li><li class="depth-2"><a href="#battle" data-for="battle">Battle</a></li><li class="depth-1"><a href="#prelude" data-for="prelude">Prelude</a></li><li class="depth-1"><a href="#end-of-chapter" data-for="end-of-chapter">End of chapter</a></li><li class="depth-1"><a href="#definitions" data-for="definitions">Definitions</a></li><li class="depth-2"><a href="#control" data-for="control">Control</a></li><li class="depth-2"><a href="#adjacent-systems" data-for="adjacent-systems">Adjacent systems</a></li></ul></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.4.0</a> © 2024</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+</script><script type="module">
+          let mermaidImport = undefined
+          document.addEventListener('nav', async () => {
+            if (document.querySelector("code.mermaid")) {
+              mermaidImport ||= await import('https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs')
+              const mermaid = mermaidImport.default
+              const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+              mermaid.initialize({
+                startOnLoad: false,
+                securityLevel: 'loose',
+                theme: darkMode ? 'dark' : 'default'
+              })
+
+              await mermaid.run({
+                querySelector: '.mermaid'
+              })
+            }
+          });
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../postscript.js" type="module"></script></html>
