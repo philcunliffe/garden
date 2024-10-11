@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "063f8475e1622aa2",
+    "type": "split",
+    "children": [
+      {
+        "id": "62c05f20b16a5155",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "000941c2b825b0da",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa2c2923cace8f64",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcbf7257d023c062",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c69553513308481",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6e636aed84deccb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c33ac6cef09736a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "716e4ed6fe628bcc",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5c40e8486b681d06",
+    "type": "split",
+    "children": [
+      {
+        "id": "60b86ef1735e6cf0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f937373b09f858d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d3680c858e9b6845",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8047ae38f4c5285",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ae4dc0ce57c3c180",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/Home.md"
+              }
+            }
+          },
+          {
+            "id": "da337f8d0a6f1bb5",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false,
+      "publish:Publish changes...": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "000941c2b825b0da",
+  "lastOpenFiles": [
+    "README.md",
+    "CODE_OF_CONDUCT.md",
+    "content/Home.md",
+    "Home.md",
+    "templates/note.md",
+    "Self-Hosting a Digital Garden.md",
+    "Becoming a Maker for My Son.md",
+    "Arcs Beginner Strategy.md",
+    "The Smartwatch is Not What You Think.md",
+    "Procyon/index.md",
+    "Procyon/Yazu, a Crooked Cop.md",
+    "Procyon/Yattu, a Gang Boss.md",
+    "Things I Want.md",
+    "Unnamed Card Game.md",
+    "Boardgame Storage Product.md",
+    "Procyon/How to Play Arcs.md",
+    "Procyon/Behind the Screen/Session 1 Prep & Notes.md",
+    "excalidraw/Drawing 2024-10-03 23.03.02.excalidraw.md",
+    "Procyon/Story Map.md",
+    "Yattu, a Gang Boss.md",
+    "Yazu, a Crooked Cop.md",
+    "Procyon/Player Characters/7-D.md",
+    "Procyon/Player Characters/Ignor Indigo.md",
+    "Procyon/Player Characters/Lando Impera.md",
+    "Procyon/Player Characters",
+    "Procyon/Downtime Primer.md",
+    "Procyon/Sessions/Session 1.md",
+    "Procyon/Behind the Screen",
+    "Procyon/Sessions",
+    "Procyon",
+    "Tags/#digimin",
+    "Digital Minimalism",
+    "Neovim",
+    "The Smartwatch is Not What You Think",
+    "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.49.29.excalidraw.png",
+    "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.12.44.excalidraw.png",
+    "attachments/Pasted Image 20240924154944_705.png",
+    "attachments/Pasted image 20240924155505.png",
+    "attachments/Pasted Image 20240924155115_577.png",
+    "attachments",
+    "excalidraw"
+  ]
+}
