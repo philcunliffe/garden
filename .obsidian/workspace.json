@@ -14,14 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Home.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c96f8c9893d44c5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Home.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Home.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Home.md"
+                "file": "content/index.md"
               }
             }
           },
@@ -170,12 +183,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98dccd62ed93d351",
+  "active": "c96f8c9893d44c5e",
   "lastOpenFiles": [
+    "content/Becoming a Maker for My Son.md",
+    "content/Self-Hosting a Digital Garden.md",
     "content/index.md",
     "content/Planning a Homelab Domain Change.md",
     "public/index.html",
-    "content/Home.md",
+    "content/index.md",
     "public/404.html",
     "public/attachments/Pasted-image-20240924155505.png",
     "public/attachments/Pasted-Image-20240924155115_577.png",
@@ -213,8 +228,6 @@
     "Yattu, a Gang Boss.md",
     "Yazu, a Crooked Cop.md",
     "Procyon/Player Characters/7-D.md",
-    "Procyon/Player Characters/Ignor Indigo.md",
-    "Procyon/Player Characters/Lando Impera.md",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.49.29.excalidraw.png",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.12.44.excalidraw.png",
     "attachments/Pasted Image 20240924154944_705.png"

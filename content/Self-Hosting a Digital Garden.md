@@ -29,4 +29,4 @@ Ideally, I can use my self hosted n8n to pull and build my Quartz repo and push 
 7. Profit
 
 ---
-[[Home|Back to Home]]
+[[content/index|Back to Home]]

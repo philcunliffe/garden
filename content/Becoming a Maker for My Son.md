@@ -16,4 +16,4 @@ draft: true
 
 
 ---
-[[Home|Back to Home]]
+[[content/index|Back to Home]]
