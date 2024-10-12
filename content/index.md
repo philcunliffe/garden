@@ -18,6 +18,7 @@ Below are some categories that have consumed my brain at some point:
 	- [[Homelab]]
 	- [[Youtube without Youtube]]
 	- [[Planning a Homelab Domain Change]]
+	- [[Self-Hosting a Digital Garden]]
 - Making
 	- [[Becoming a Maker for My Son (and for Me)]]
 - Personal Knowledge Management
