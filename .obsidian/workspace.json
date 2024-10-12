@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Becoming a Maker for My Son (and for Me).md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Becoming a Maker for My Son (and for Me).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Becoming a Maker for My Son (and for Me).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md"
+                "file": "content/Becoming a Maker for My Son (and for Me).md"
               }
             }
           },
@@ -185,8 +185,8 @@
   },
   "active": "c96f8c9893d44c5e",
   "lastOpenFiles": [
-    "content/Becoming a Maker for My Son (and for Me).md",
     "content/index.md",
+    "content/Becoming a Maker for My Son (and for Me).md",
     "content/Readwise/Articles/7 Harsh Truths You Probably Need to Hear.md",
     "content/Youtube without Youtube.md",
     "content/Readwise/Articles/A Brief History & Ethos of the Digital Garden.md",

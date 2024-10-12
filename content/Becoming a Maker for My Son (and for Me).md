@@ -1,6 +1,6 @@
 ---
 planted: 2024-10-11
-status: seedling
+status: evergreen
 draft: false
 tags: making
 ---
