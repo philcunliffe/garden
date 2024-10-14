@@ -29,7 +29,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       title: 'Recent Notes',
+      sortFn: (a, b) => (new Date(b.file?.dates?.modified) - new Date(a.file?.dates?.modified)),
       filterFn: (node) => !!node.file, 
+      order: ['filter', 'sort'],
     })),
   ],
   right: [

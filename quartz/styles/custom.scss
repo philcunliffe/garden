@@ -1,3 +1,14 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.center article {
+  font-size: 1.25em;
+}
+
+.center article p, .center article li, .center article tbody {
+  line-height: 1.7em;
+}
+
+.center h1, .center h2, .center h3, .center h4, .center h5 {
+  font-weight: bold;
+}

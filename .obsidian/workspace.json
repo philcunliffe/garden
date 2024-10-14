@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Should I Get a 3D Printer.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Should I Get a 3D Printer.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Should I Get a 3D Printer.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Should I Get a 3D Printer.md"
+                "file": "content/index.md"
               }
             }
           },
@@ -199,22 +199,22 @@
   "lastOpenFiles": [
     "content/Should I Get a 3D Printer.md",
     "public/404.html",
-    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw.png",
-    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.png",
     "public/attachments/Pasted-image-20240924155505.png",
     "public/attachments/Pasted-Image-20240924155115_577.png",
     "public/attachments/Pasted-Image-20240924154944_705.png",
     "public/attachments",
     "public/publish.css",
-    "public/static/contentIndex.json",
     "public/static/og-image.png",
     "public/static/icon.png",
+    "public/static/contentIndex.json",
     "public/static",
     "public/index.xml",
     "public/sitemap.xml",
     "public/Tags/index.html",
     "public/Tags/excalidraw.html",
     "public/Tags/iPod.html",
+    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw.png",
+    "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.png",
     "content/Write about ADD and self-reflection.md",
     "content/Making.md",
     "content/Fixing my Bathroom Ceiling.md",
