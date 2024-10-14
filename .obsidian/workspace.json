@@ -32,9 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea891b00de211151",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Should I Get a 3D Printer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Becoming a Maker for My Son (and for Me).md",
+                "file": "content/Should I Get a 3D Printer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Becoming a Maker for My Son (and for Me).md",
+                "file": "content/Should I Get a 3D Printer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Becoming a Maker for My Son (and for Me).md"
+                "file": "content/Should I Get a 3D Printer.md"
               }
             }
           },
@@ -183,10 +195,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c96f8c9893d44c5e",
+  "active": "ea891b00de211151",
   "lastOpenFiles": [
-    "content/index.md",
+    "content/Write about ADD and self-reflection.md",
+    "content/Making.md",
+    "content/Should I Get a 3D Printer.md",
+    "content/Fixing my Bathroom Ceiling.md",
+    "content/Home Improvement List.md",
     "content/Becoming a Maker for My Son (and for Me).md",
+    "content/Getting Bus Times on my Smartwatch if IFTTT and n8n.md",
+    "content/Tags/#digimin/#digimin.md",
+    "content/Tags/#digimin",
+    "content/Tags",
+    "content/Bus-times on my Smartwatch.md",
+    "content/Readwise/Articles/How to Repair a Drywall Ceiling Hole Fast and Easy!.md",
+    "content/index.md",
     "content/Readwise/Articles/7 Harsh Truths You Probably Need to Hear.md",
     "content/Youtube without Youtube.md",
     "content/Readwise/Articles/A Brief History & Ethos of the Digital Garden.md",
@@ -203,17 +226,8 @@
     "content/Readwise/Articles/NEW React 19 Changes Are Amazing!.md",
     "content/Readwise/Articles",
     "content/Readwise/Books/Return of the Lazy Dungeon Master.md",
-    "content/Readwise/Books/Homo Deus.md",
-    "content/Readwise/Books/Skid Road.md",
-    "content/Readwise/Books/A Universe From Nothing.md",
-    "content/Readwise/Books/Tao of Jeet Kune Do.md",
     "content/Readwise/Books",
     "content/Readwise",
-    "Readwise/Articles/A Brief History & Ethos of the Digital Garden.md",
-    "Readwise/Books/From Dream to Dice.md",
-    "Readwise/Books/My Guide to RPG Storytelling.md",
-    "Readwise/Articles/7 Harsh Truths You Probably Need to Hear.md",
-    "Readwise/Books/Invisible Ink.md",
     "Readwise/Articles",
     "Readwise/Books",
     "Readwise",
@@ -222,8 +236,6 @@
     "public/static/icon.png",
     "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.png",
     "public/publish.css",
-    "public/static/contentIndex.json",
-    "public/index.xml",
     "public/attachments/Pasted-image-20240924155505.png",
     "public/attachments/Pasted-Image-20240924155115_577.png",
     "public/attachments/Pasted-Image-20240924154944_705.png",
