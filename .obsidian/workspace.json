@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "98dccd62ed93d351",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "c96f8c9893d44c5e",
             "type": "leaf",
             "state": {
@@ -39,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Should I Get a 3D Printer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Should I Get a 3D Printer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Should I Get a 3D Printer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md"
+                "file": "content/Should I Get a 3D Printer.md"
               }
             }
           },
@@ -197,34 +183,35 @@
   },
   "active": "ea891b00de211151",
   "lastOpenFiles": [
-    "content/Should I Get a 3D Printer.md",
+    "content/index.md",
     "public/404.html",
     "public/attachments/Pasted-image-20240924155505.png",
     "public/attachments/Pasted-Image-20240924155115_577.png",
     "public/attachments/Pasted-Image-20240924154944_705.png",
     "public/attachments",
     "public/publish.css",
+    "public/index.html",
     "public/static/og-image.png",
     "public/static/icon.png",
     "public/static/contentIndex.json",
     "public/static",
     "public/index.xml",
     "public/sitemap.xml",
-    "public/Tags/index.html",
-    "public/Tags/excalidraw.html",
-    "public/Tags/iPod.html",
+    "public/Procyon/Sessions/index.html",
+    "public/Procyon/Player-Characters/index.html",
     "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.49.29.excalidraw.png",
     "public/excalidraw/Getting-Bus-Times-on-my-Smartwatch-if-IFTTT-and-n8n-2024-09-24-15.12.44.excalidraw.png",
+    "content/Becoming a Maker for My Son (and for Me).md",
+    "content/index2.md",
+    "content/Should I Get a 3D Printer.md",
     "content/Write about ADD and self-reflection.md",
     "content/Making.md",
     "content/Fixing my Bathroom Ceiling.md",
     "content/Home Improvement List.md",
-    "content/Becoming a Maker for My Son (and for Me).md",
     "content/Getting Bus Times on my Smartwatch if IFTTT and n8n.md",
     "content/Tags/#digimin/#digimin.md",
     "content/Bus-times on my Smartwatch.md",
     "content/Readwise/Articles/How to Repair a Drywall Ceiling Hole Fast and Easy!.md",
-    "content/index.md",
     "content/Readwise/Articles/7 Harsh Truths You Probably Need to Hear.md",
     "content/Youtube without Youtube.md",
     "content/Readwise/Articles/A Brief History & Ethos of the Digital Garden.md",
@@ -238,7 +225,6 @@
     "content/Readwise/Books/Digital Minimalism.md",
     "content/Readwise/Articles/Golden Butter Rice  Easy Perfect Rice  Food Wishes.md",
     "content/Readwise/Articles/There’s a Fast New Code Editor in Town.md",
-    "content/Readwise/Articles/NEW React 19 Changes Are Amazing!.md",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.49.29.excalidraw.png",
     "excalidraw/Getting Bus Times on my Smartwatch if IFTTT and n8n 2024-09-24 15.12.44.excalidraw.png",
     "attachments/Pasted Image 20240924154944_705.png"

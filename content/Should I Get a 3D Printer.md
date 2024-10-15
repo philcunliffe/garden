@@ -31,9 +31,9 @@ Brewing as a hobby was grown around a friendship with a person I've since lost c
 Networks, software, servers, and websites all make sense to me implicitly. Despite my lack of experience in the physical making space, I believe my brain is suited for it. I'm good at spatial visualization and in mediums I'm comfortable with, like cardboard, I'm able to build, create, and problem-solve to accomplish my goals. Much of my discomfort with physical making stems from a lack of knowledge on how to manipulate the materials. 3D printing is unique in that you can design physical objects using software and then perfectly create them in materials with a variety of properties. I hope that this bridge from the virtual to the physical can start to tear down the mental barrier I have in front of physical making.
 
 ## So Yes or No?
-It's a yes. It's a productive hobby that aligns with my goals and provides immediate and future value to my household. It facilitates building my identity in the way I want to grow and bridges the gap between my current abilities and the skills I want to obtain. From experience, I know it's impossible for me to truly predict if I'll stick with a hobby but the similarity between a 3D printer and my Homelab as a catalyst project makes me believe that I will.
+It's a yes. It's a productive hobby that aligns with my goals and provides immediate and future value to my household. It facilitates building my identity in the way I want to grow and bridges the gap between my current abilities and the skills I want to obtain. From experience, I know I can't predict if I'll stick with a hobby truly but the similarity between a 3D printer and my Homelab as a catalyst project makes me believe that I will.
 
-Writing this also provided me with some clarity on my brewing hobby and I think I'm ready to part with that gear which should provide the space and funds I need to get started.
+Writing this also clarified my brewing hobby, and I think I'm ready to part with that gear, which should provide the space and funds I need to get started.
 
 ---
 [[content/index|Back to Home]]
