@@ -6,7 +6,10 @@
   "url-into-selection",
   "obsidian-vimrc-support",
   "obsidian-excalidraw-plugin",
-  "table-editor-obsidian",
   "templater-obsidian",
-  "obsidian-git"
+  "table-editor-obsidian",
+  "obsidian-git",
+  "OA-file-hider",
+  "readwise-official",
+  "frontmatter-modified-date"
 ]

@@ -3,8 +3,9 @@ planted: 2024-10-12
 status: budding
 draft: false
 tags: making
+modified: 2024-10-14T17:22:11-07:00
 ---
-Since I stumbled upon [this video](https://www.youtube.com/watch?v=7WwGkFbwygI) from SuperfastMatt, in which he makes the case that "it's time to put a 3d printer in your garage", my mind has been consumed with the idea. This hyper-fixation is a common occurrence for me and these short-term obsessions tend to burn out. Based on my ongoing and deepening love for my [[Homelab]] I have found that if these bursts of interest align with my goals and interests they can survive the initial burnout once the hyper-fixation fades. Too many of these interests are roadkill in my rearview mirror and my disposable income is the lowest it's ever been so I'm going to overanalyze here to answer the question
+Since I stumbled upon [this video](https://www.youtube.com/watch?v=7WwGkFbwygI) from SuperfastMatt, in which he makes the case that "it's time to put a 3d printer in your garage", my mind has been consumed with the idea. This hyper-fixation is a common occurrence for me and these short-term obsessions tend to burn out. Based on my ongoing and deepening love for my [[Homelab]] I have found that if these bursts of interest align with my goals and interests they can survive the initial burnout once the hyper-fixation fades. Too many of these interests are roadkill in my rearview mirror and my disposable income is the lowest it's ever been so I'm going to overanalyze here to answer the question.
 ##### *Should I buy a 3D printer?*
 
 ## Why I Shouldn't Buy One

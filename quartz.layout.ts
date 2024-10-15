@@ -29,7 +29,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       title: 'Recent Notes',
-      sortFn: (a, b) => (new Date(b.file?.dates?.modified) - new Date(a.file?.dates?.modified)),
+      sortFn: (a, b) => {
+        if (!b.file?.frontmatter?.modified) return -1;
+        if (!a.file?.frontmatter?.modified) return 1;
+        const aDate = new Date(a.file?.frontmatter?.modified as string)
+        const bDate = new Date(b.file?.frontmatter?.modified as string)
+        return bDate.getUTCMilliseconds() - aDate.getUTCMilliseconds();
+      },
       filterFn: (node) => !!node.file, 
       order: ['filter', 'sort'],
     })),
